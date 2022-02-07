@@ -1,0 +1,30 @@
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+#navbar>button{
+  color: white;
+  background-color:black;
+  border: 0px;
+  font-weight: bold;
+}
+#count{
+    color: white;
+    margin-top: 0px;
+    padding: 0px;
+    font-weight: bold;
+
+font-size: 15px;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:30px;
+}
+#menu>div>img{
+  width: 100%;
+}
